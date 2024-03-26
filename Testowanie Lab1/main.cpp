@@ -1,7 +1,6 @@
 
 #include "../Func/Foo.h"
 
-#include "../Func/Foo.cpp"
 
 
 
@@ -88,6 +87,8 @@ int main() {
 		}
 		cout << "\n\n--------------------------";
 	}
+	///a
+	cout << "heasjkldjas" << endl;
 
 
 
