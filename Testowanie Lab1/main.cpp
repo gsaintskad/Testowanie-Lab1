@@ -1,7 +1,7 @@
 
 #include "../Func/Foo.h"
 
-
+using namespace std;
 
 
 

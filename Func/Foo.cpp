@@ -1,13 +1,13 @@
-
+#include<set>
 #include"Foo.h"
 
 
 
 //asjkldjaslkdjalksjdlka
 
-set<int> Intersection(int min, int max, bool IsMinIncluded, bool IsMaxIncluded, set<int>inputSet) {
+std::set<int> Intersection(int min, int max, bool IsMinIncluded, bool IsMaxIncluded, std::set<int>inputSet) {
 	int i, j;
-	set<int> outputSet;
+	std::set<int> outputSet;
 
 	if (IsMinIncluded) i = min;
 	else i = min + 1;
