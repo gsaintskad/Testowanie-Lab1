@@ -5,9 +5,9 @@
 
 
 
-set<int> Intersection(int min, int max, bool IsMinIncluded, bool IsMaxIncluded, set<int>inputSet) {
+std::set<int> Intersection(int min, int max, bool IsMinIncluded, bool IsMaxIncluded, std::set<int>inputSet) {
 	int i, j;
-	set<int> outputSet;
+	std::set<int> outputSet;
 
 	if (IsMinIncluded) i = min;
 	else i = min + 1;
@@ -26,4 +26,11 @@ set<int> Intersection(int min, int max, bool IsMinIncluded, bool IsMaxIncluded, 
 
 }
 
+void printSet(std::set<int> InputSet)
+{
+	for (auto it = InputSet.begin(); it != InputSet.end(); ++it) {
+		std::cout << *it << " ";
+	}
+	std::cout << "\n\n";
+}
 
